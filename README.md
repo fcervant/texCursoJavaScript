@@ -1,7 +1,7 @@
-# texCursoJavaScript
+# texCursoJavaScript - vs 1.0
 Documentos gerados durante o treinamento TEX de JavaScript FullStack
 
-## Referências arquivos
+## Referências
 
 Documento            | Descrição
 -------------------- | ------------------------------------------------
