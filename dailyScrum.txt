@@ -1,0 +1,202 @@
+Realizar uma daily para gerar um inventário do produto - atividades: product backlog e sprint backlog
+
+Product backlog 
+Faz parte do framework de desenvolvimento Scrum, e é ligado diretamente ao Product Owner (PO), responsável por sua criação, conteúdo, disponibilidade e priorização. Sua função é documentar de forma clara todos os requisitos que vão surgindo durante o desenvolvimento de um projeto.
+
+Sprint Backlog
+Basicamente, o Sprint Backlog é uma lista de atividades que precisam ser feitas durante uma Sprint. No início de cada Sprint, olha-se para o Product Backlog e “puxa-se” o que será feito no Sprint. Essas “histórias” do Product Backlog são agora desmembradas em atividades para serem executadas no Sprint (Sprint Tasks).
+
+Product Backlog
+Identificação do produto + prazo
+Exemplo: Desenvolvimento solução para localização de animais perdidos - rede social "AchaPet". Prazo: 60 dias para versão 1.
+
+
+Sprints
+	Sprint0
+		atividade 1 / prazo / responsavel
+		atividade 2 / prazo / responsavel
+		atividade 3 / prazo / responsavel
+						
+	Sprint1
+		atividade 4 / prazo / responsavel
+		atividade 5 / prazo / responsavel
+		atividade 6 / prazo / responsavel
+		
+	Sprint2
+	
+	...
+	
+Em nosso caso poderemos ter como atividades:
+
+- definições técnicas
+	ambiente
+	linguagem
+	protocolos comunicação e autenticação
+	
+- definições negócio
+	validação funcionalidades propostas
+	identificação de regras 
+	definição das prioridades
+	
+- modulos de administração
+	- usuarios
+	- parceiros
+	- financeiro
+		- cupons
+		- cashback
+	- suporte
+	- configurações da aplicação: integrações, definições de ambiente, etc
+
+- interface usuários
+	- cadastro básico
+	- troca de senha / esqueci minha senha
+	- cadastro avançado: preferencias, interesses
+	- indicadores de utilização
+	- chat suporte (bot de atendimento)
+
+- interfaces de parceiros
+	- cadastro básico
+	- integrações
+	- chat suporte (bot de atendimento)
+	- relatórios e indicadores
+	
+- gestão de cupons
+- gestão de notificações
+- gestão de cashback
+
+*** Resumo das aulas
+
+O 3 -5 - 3 do SCRUM!
+
+3 - Papéis - PO, Scrum Master e Equipe Developer
+5 - Eventos - Sprint, Sprint Planning, Daily Scrum, Sprint Review, Retrospective
+3 - Artefatos - Product Backlog, Sprint Backlog e Product Increment
+
+Product Backlog
+
+Hipoteses -> Experiência -> Validação -> Aprendizagem
+
+Necessidades x Prioridades : quais são as dores? O que precisa ser resolvido?
+
+Spring Backlog: lista definida com as features que serão implementadas, em ordem de prioridade, para inserir nas sprints. A lista é definida na Sprint Planning Meeting.
+
+Feature
+Valor comercial objetivo
+Dados para estimar esforço
+Justificável
+Cabe em um increment, não pode ser algo grande
+Ser testável
+
+1 - Sprint Planning Meeting
+
+Planejamento da primeira versão
+
+Prioridades
+1 fase : apresentar todas as features e respectivas prioridades
+2 fase : definição do que realmente será feito
+
+25% tempo developer - ajustes e correções
+
+Pilares do Scrum
+
+Transparencia, Inspeção, Adaptação
+
+Transparência: comunicação o tempo todo, linguagem comum
+Inspeção: monitorar os artefatos, pessoas, fluxos de trabalho, backlogs, incrementos - pode ser conduzida por todos. Vem de questionamentos - estamos melhores do que na semana passada? 
+
+Adaptação: reagir rápido às mudanças
+
+Sprint: entre 7 e 30 dias ("corrida")
+Sprint: é um incremento que pode ser lançado, utilizado
+Sprint: prazo curto, para evitar mudança de objetivos, sensação de falta de entrega / atraso
+Sprint: nunca pode ter seu prazo alterado
+Sprint: Freeze period - congelamento, solução não pode ser alterada por estar sendo muito utilizada
+Sprint: se finalizar antes, procurar por bugs, ajustes, refatoramento código
+Sprint: terminar depois da data: checar motivos, melhorar replanejamento, discutir na Sprint Retrospective, encerrar
+Sprint: ficou obsoleta - pode ocorrer em funções de agentes externos: mercado, direcionamento empresa, mudança tecnológica
+
+2 - Daily Scrum
+Não é reunião de cobrança
+Deve começar no horario correto
+Envolve todos do time, para que todos estejam na mesma página
+Deve durar no máximo 20 minutos
+Quem conduz são os developers, os demais são ouvintes (PO, SM e stackholders)
+Só deve abordar assuntos da sprint
+Participantes: equipe scrum + PO + SM
+
+Tres perguntas:
+- o que foi feito desde ontem?
+- o que estou fazendo hoje?
+- tem algum impedimento para que eu realize meu objetivo? Fator de risco. Tem que ser reportado imediatamente.
+
+Times que só reportam impedimento, não são ágeis! A equipe precisa tentar resolver os problemas sozinha.
+
+Impedimentos são resolvidos fora da daily - daily é para feedbacks
+
+Se o time não consegue mesmo resolver, é de responsabilidade do SM ou do PO (caso seja algo com o cliente)
+
+2.1 - Backlog Refinement
+Processo contínuo realizado pelo PO, para alinhamento das prioridades, entregas, entendimento geral.
+
+3 - Sprint Review
+Reunião mais longa - penúltimo evento da sprint
+PO aproveita as lições aprendidas
+Participação das partes externas
+São apresentadas os incrementes / features que foram desenvolvidas e que estão prontas para utilização
+Time descreve problemas e as soluções encontradas
+Demonstração do produto - pronto para lançar!
+PO aborda roadmap, próximas entregas, possíveis impedimentos - próximos passos / entregas.
+Caso não seja possível apresentar incrementes, seja transparência e explique os motivos
+
+--------- 4 - Sprint Retrospective
+Participantes: equipe scrum + PO + SM
+Revisão erros e acertos no sprint realizado
+Lições aprendidas para tentar aprimorar o produto
+1a parte: pontos positivos, o que deu certo. Tentar pontecializar isso para as próximas sprints. Reconhecimentos
+2a parte: o que não foi tão bom, o que merece atenção. Não é apontar os culpados, mas sim entender o que ocorreu e tentar ajudar - soft  skills - apoiar quem precisa de ajuda
+3a parte: plano de ação para a próxima sprint - aplicar os que foi positivo, mitigar os pontos negativos
+
+Perguntas:
+- o que vc fez de bem na últia iteração?
+- o que te deixou feliz?
+- o que vc fez de legal para outra pessoa?
+
+Aprendizagem
+
+Formal: lendo, ouvindo, observando, compartilhando (individual)
+Formal: trabalhando e aprendendo juntos (social)
+
+Informal: estudando por conta própria, videos, cursos (individual)
+Informal: Aprendendo com os outros (social)
+
+--------- Backlog Refinement
+Processo contínuo, responsanbilidade do PMO
+Verificar
+- Objetivo
+- Valor Comercial
+- Estimativa
+
+Importância - ocorrer
+- falta de entendimento
+- falta de dimensionamento, complexidade, achismo
+- falta de ordenação
+
+Benefícios
+- Backlog limpo, reuniões mais curtas
+- Sprint Planning mais eficiente
+- Melhoria do entendimento geral (equipe)
+
+Resultados
+- Descobertas e melhor detalhamento
+- Melhor divisão das atividades
+- Revisão das prioridades, redução riscos e mal-entendidos
+
+Valores
+- Comercial: receita e lucro
+- Eficiência: dinheiro e tempo
+- Mercado: novos clientes e usuários
+- Cliente: manter usuários
+- Futuro: economia, crescimento, segurança
+
+Epic
+Uma atividade ou evento que é muito grande (complexo) para ser apenas uma atividade, requer uma user story que será depois dividida em entregas menores.
