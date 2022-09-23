@@ -13,7 +13,8 @@ antenada.pdf         | Persona dois
 Persona3.pdf         | Persona tres
 ILoveVouchers.pdf    | Protótipo vs1.0 das telas iniciais
 
-Folders
+Folder               | Descrição conteúdo
+---------------------| ------------------------------------------------
 Apoio		             | arquivos de apoio para as atividades
 Modelos              | modelos de ppt, templates, etc
 Personas	           | personas elaboradas
